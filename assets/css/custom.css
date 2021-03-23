@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.ironman-icon {
+    display: inline-block;
+    width: 2.3em;
+    height: 2.3em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-image: url("../img/icons/ironman-icon.png");
+  }
+
+a:hover{
+    text-decoration: none;
+}
+
+.space-sm{
+    clear: both;
+    height: 25px;
+}
+
+.space-md{
+    clear: both;
+    height: 50px;
+}
+
+.space-lg{
+    clear: both;
+    height: 100px;
+}
+
+.space-max{
+    clear: both;
+    height: 225px;
+}
+
+#navbarIronman{
+    justify-content: flex-end;
+}
+
+#navbarIronman ul li a:hover{
+    text-decoration: none;
+}
+
+#title-menu{
+    font-weight: bold;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.home{
+    background-image: url("../img/gifs/ironman-gif.gif");
+}
+
+.home-name{
+    color: white;
+    font-family: 'Syne Mono', monospace;
+}
+
+.home-line{
+    background-color: white;
+    height: 2px;
+}
+
+.menu-background{
+    background-color: transparent;
+    transition: all 1s ease;
+}
+
+.change-background{
+    background-color: #09589c;
+}
+
+.letter-white{
+    color: white;
+}
+
+.joaquin-img{
+    border: 5px solid black;
+    max-width: 65%;
+    border-radius: 15px;
+}
+
+.cv-img{
+    max-width: 60%;
+}
+
+.background-page{
+    background-color:rgb(238, 228, 228);
+}
+
+h2.title{
+    font-family: 'Syne Mono', monospace;
+    border-bottom: 3px solid black;
+}
+
+.text-acerca-de{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Syne Mono', monospace;
+    font-size: 18px;
+}
+
+.footer{
+    background-color: #09589c;
+    color:white;
+}
+
+.redes i{
+    color: white;
+}
+
+.redes i:hover{
+    font-size: 3em;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.img-container{
+    display: flex;
+    overflow: hidden;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+img.proyect{
+    max-height: 250px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.proyect-block{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: auto;
+    height: 100%;
+    background: rgba(0,0,0,.6);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    border-radius: 15px;
+    transition: opacity .25s;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.proyect-block > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.proyect-block:hover{
+    opacity: 1;
+}
+
+.proyect-block:hover > * {
+    transform: translateY(0);
+}
+
+.proyect-title{
+    padding: 0px 20px;
+}
+
+.proyect-body{
+    padding: 0px 20px;
+}
+
+.margin-bottom-md{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px){
+    img.proyect{
+        width: 100%;
+        max-height: 100%;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+}

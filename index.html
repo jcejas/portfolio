@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Joaquin Cejas - Portfolio
+        </title>
+        <link rel="stylesheet" type="text/css" href="Librerias/bootstrap-4.0.0/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Syne+Mono&display=swap" rel="stylesheet">
+    
+        <!-- SCRIPTS -->
+        <script type="text/javascript" src="Librerias/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="Librerias/bootstrap-4.0.0/js/bootstrap.js"></script>
+    </head>
+    <body>
+        
+        <div id="home" class="home">
+            <nav id="menu" class="navbar navbar-expand-lg menu-background fixed-top">
+                <audio id="sound-effect" type="audio/mp3" src="assets/sound/ironman-sound.mp3" class="hidden">
+                </audio>
+                <span class="navbar-brand" id="title-menu">Portfolio</span>
+                <button id="ironman-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarIronman" aria-controls="navbarIronman" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="ironman-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarIronman">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a data-scroll class="btn-lg" href="#home">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="btn-lg" href="#sobre-mi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="btn-lg" href="#cv">Descargar CV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a data-scroll class="btn-lg" href="#proyectos">Proyectos</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="btn-lg" href="#">Contacto</a>
+                            </li> -->
+                    </ul>
+                </div>
+            </nav>
+            
+            <div class="w-100 space-max">&nbsp;</div>
+            
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h1 class="home-name">Joaquin J. Cejas</h1>
+                        <hr class="home-line">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2 class="home-name">Fullstack Developer</h2>
+                    </div>
+                </div>
+                <div class="w-100 space-md">&nbsp;</div>
+                <div class="row">
+                    <div class="col">
+                        <a id="whatsapp" title="Enviar Whatsapp" class="btn-lg btn-success" href="https://wa.link/69xmye" target="_blank"><i class="fa fa-whatsapp"></i>&nbsp;Escribime</a>
+                    </div>
+                </div>
+                <div class="w-100 space-max">&nbsp;</div>
+            </div>
+        </div>
+        
+        <div class="background-page">
+            <div id="sobre-mi">
+                <div class="container">
+                    <div class="w-100 space-lg"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h2 class="title">Sobre mi</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="w-100 space-md"></div>
+                        <div class="col-md-5">
+                            <img id="joaquin-img" class="joaquin-img" src="assets/img/jpg/joaquin_cejas.jpg">
+                        </div>
+                        <div class="col-md-7 text-acerca-de">
+                            <p>
+                                Soy desarrollador web y me capacito como Developer Fullstack bajo los lenguajes de HTML, CSS, PHP, JAVA, SQL, Javascript y sus frameworks m&aacute;s conocidos.
+                                Me fascina aprender sobre nuevas tecnolog&iacute;as y poner en pr&aacute;ctica constantemente los conocimientos adquiridos.
+                            </p>
+                            <p>
+                                Soy muy determinado en la resoluci&oacute;n de problemas y en el cumplimiento de tareas. Siempre busco mejorar para que mis desarrollos sean lo m&aacute;s &oacute;ptimos posible.
+                                Trabajo bien en equipo, soy proactivo, autodid&aacute;cta y tengo amplias capacidades de aprendizaje.
+                            </p>
+                        </div>
+                        <div class="w-100 space-sm"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cv">
+                <div class="container">
+                    <div class="w-100 space-lg"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h2 class="title">Curr&iacute;culum Vitae</h2>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="row">
+                        <div class="col-md-12 text-center">
+                            <img id="cv-img" class="cv-img" src="assets/img/jpg/cv.jpg">
+                            <div class="w-100 space-sm"></div>
+                            <div class="btn-group">
+                                <a id="descargar-cv" class="btn-lg btn-danger" href="cv/joaquin_cejas_cv.pdf" target="_blank" title="Clic para Descargar CV">
+                                    <img class="pdf-icon" src="assets/img/icons/pdf-icon-md.png">&nbsp;Descargar
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-100 space-md"></div>
+                </div>
+            </div>
+
+            <div id="proyectos">
+                <div class="container">
+                    <div class="w-100 space-lg"></div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="text-center">
+                                <h2 class="title">Proyectos</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 space-sm"></div>
+                    <div class="row">
+                        <div class="col-md-4 margin-bottom-md">
+                            
+                            <a href="https://codo-a-codo-comision2007.netlify.app/" target="_blank">
+                                <div class="img-container">
+                                    <img id="proyect" class="proyect" src="assets/img/jpg/web_codoacodo.JPG">
+                                </div>
+
+                                <div class="proyect-block">
+                                    <div class="proyect-title"><h4>Codo a Codo 4.0</h4></div>
+                                    <p class="proyect-body">P&aacute;gina Web con ejercicios realizados en el Curso de Fullstack (JAVA)</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-md-4 margin-bottom-md">
+                            
+                            <a href="https://github.com/jcejas/proyect_ecommerce" target="_blank">
+                                <div class="img-container">
+                                    <img id="proyect" class="proyect" src="assets/img/jpg/ecommerce.JPG">
+                                </div>
+                                
+                                <div class="proyect-block">
+                                    <div class="proyect-title"><h4>Proyect Ecommerce</h4></div>
+                                    <p class="proyect-body">Proyecto de Entrenamiento estilo ecommerce</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                        <div class="col-md-4 margin-bottom-md">
+                            
+                            <a href="javascript:void(0)" data-toggle="modal" data-target="#popup-proximamente">
+                                <div class="img-container">
+                                    <img id="proyect" class="proyect" src="assets/img/gifs/ironman-reactor.gif">
+                                </div>
+
+                                <div class="proyect-block">
+                                    <div class="proyect-title"><h4>Pr&oacute;ximamente</h4></div>
+                                    <p class="proyect-body">Nuevos Proyectos est&aacute;n por venir...</p>
+                                </div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    <div class="w-100 space-lg"></div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ------------------------ POPUP ------------------------ -->
+        <div id="popup-proximamente" class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">Pr&oacute;ximamente</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <p>Estoy en constante capacitaci&oacute;n de nuevos lenguajes y tecnolog&iacute;as. 
+                      Por ese motivo sigo desarrollando proyectos personales que me ayudan a afianzar 
+                      los conocimientos aprendidos.
+                  </p>
+                  <p>
+                    Skills en proceso: <b>Vue.js</b>, <b>React.js</b>, <b>Node.js</b> y <b>Phyton</b>.
+                  </p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+        <footer class="footer">
+            <div class="w-100 space-sm"></div>
+            <div class="row text-center font-weight-bold" style="font-size: large;">
+                <div class="col-md-4 redes">
+                    <a href="https://www.google.com.ar/maps/place/La+Matanza,+Provincia+de+Buenos+Aires/@-34.7725735,-58.7575855,11z/data=!3m1!4b1!4m5!3m4!1s0x95bcc7d93babbfc9:0x7069bcd368941214!8m2!3d-34.7862476!4d-58.6229664" target="_blank">
+                        <i class="fa fa-2x fa-map-marker"></i>
+                    </a>
+                    &nbsp;GBA, Buenos Aires, Argentina
+                </div>
+                <div class="col-md-4 redes">
+                    <a href="https://wa.link/69xmye" target="_blank">
+                        <i class="fa fa-2x fa-whatsapp"></i>
+                    </a>
+                    &nbsp;+54 11 30052 081
+                </div>
+                <div class="col-md-4">
+                    <a class="redes" id="linkedin" href="https://www.linkedin.com/in/joaquin-cejas-2bb847146/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
+                    <a class="redes" id="github" href="https://github.com/jcejas" target="_blank">&nbsp;<i class="fa fa-2x fa-github-square"></i></a>
+                    <a class="redes" id="correo" href="mailto:joaquincjs@hotmail.com" target="_blank">&nbsp;<i class="fa fa-2x fa-envelope-square"></i></a>
+                </div>
+            </div>
+            <div class="w-100 space-sm"></div>
+        </footer>
+        
+        <script type="text/javascript" src="js/script.js"></script>
+    </body>
+</html>
