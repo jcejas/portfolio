@@ -8,6 +8,8 @@ $(document).ready(function(){
 		$("#menu").removeClass("change-background");
 		$(".nav-item a").removeClass("letter-white");
 	}
+
+	$(".toggle").css("margin-left","15px");
 });
 
 $("#navbarIronman ul li a").on("click",function(){
