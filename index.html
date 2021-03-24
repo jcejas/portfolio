@@ -7,6 +7,7 @@
             Joaquin Cejas - Portfolio
         </title>
         <link rel="stylesheet" type="text/css" href="Librerias/bootstrap-4.0.0/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="Librerias/bootstrap4-toggle-3.6.1/css/bootstrap4-toggle.css">
         <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -15,6 +16,7 @@
         <!-- SCRIPTS -->
         <script type="text/javascript" src="Librerias/jquery-3.6.0.js"></script>
         <script type="text/javascript" src="Librerias/bootstrap-4.0.0/js/bootstrap.js"></script>
+        <script type="text/javascript" src="Librerias/bootstrap4-toggle-3.6.1/js/bootstrap4-toggle.js"></script>
     </head>
     <body>
         
@@ -40,9 +42,11 @@
                         <li class="nav-item">
                             <a data-scroll class="btn-lg" href="#proyectos">Proyectos</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="btn-lg" href="#">Contacto</a>
-                            </li> -->
+                        <li class="nav-item">
+                            <div id="sound-control" title="Desactivar Sonido">
+                                <input id="sound-button" type="checkbox" checked data-toggle="toggle" data-onstyle="danger">
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -240,6 +244,6 @@
             <div class="w-100 space-sm"></div>
         </footer>
         
-        <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js?v=0.1"></script>
     </body>
 </html>
