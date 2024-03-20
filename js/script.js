@@ -1,3 +1,7 @@
+// Set volume to 50%
+const audio = document.querySelector("audio");
+audio.volume = 0.5;
+
 $(document).ready(function(){
     
 	if ($("#menu").offset().top > 60) {
@@ -40,7 +44,3 @@ $(window).scroll(function(){
 		$(".nav-item a").removeClass("letter-white");
 	}
 });
-
-function Proximamente(){
-	
-}
