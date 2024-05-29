@@ -6,17 +6,17 @@
         <title>
             Joaquin Cejas - Portfolio
         </title>
-        <link rel="stylesheet" type="text/css" href="Librerias/bootstrap-4.0.0/css/bootstrap.css">
-        <link rel="stylesheet" type="text/css" href="Librerias/bootstrap4-toggle-3.6.1/css/bootstrap4-toggle.css">
+        <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap-4.0.0/css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="assets/vendors/bootstrap4-toggle-3.6.1/css/bootstrap4-toggle.css">
         <link rel="stylesheet" type="text/css" href="assets/css/custom.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro&family=Syne+Mono&display=swap" rel="stylesheet">
     
         <!-- SCRIPTS -->
-        <script type="text/javascript" src="Librerias/jquery-3.6.0.js"></script>
-        <script type="text/javascript" src="Librerias/bootstrap-4.0.0/js/bootstrap.js"></script>
-        <script type="text/javascript" src="Librerias/bootstrap4-toggle-3.6.1/js/bootstrap4-toggle.js"></script>
+        <script type="text/javascript" src="assets/vendors/jquery-3.6.0.js"></script>
+        <script type="text/javascript" src="assets/vendors/bootstrap-4.0.0/js/bootstrap.js"></script>
+        <script type="text/javascript" src="assets/vendors/bootstrap4-toggle-3.6.1/js/bootstrap4-toggle.js"></script>
     </head>
     <body>
         
@@ -37,7 +37,7 @@
                             <a data-scroll class="btn-lg" href="#sobre-mi">Sobre Mi</a>
                         </li>
                         <li class="nav-item">
-                            <a data-scroll class="btn-lg" href="#cv">Descargar CV</a>
+                            <a data-scroll class="btn-lg" href="#cv">Mi CV</a>
                         </li>
                         <li class="nav-item">
                             <a data-scroll class="btn-lg" href="#proyectos">Proyectos</a>
@@ -62,7 +62,7 @@
                 </div>
                 <div class="row">
                     <div class="col-md-5">
-                        <h2 class="home-name">Fullstack Developer</h2>
+                        <h2 class="home-name">Backend Developer</h2>
                     </div>
                 </div>
                 <div class="w-100 space-md">&nbsp;</div>
@@ -88,17 +88,26 @@
                     </div>
                     <div class="row">
                         <div class="w-100 space-md"></div>
-                        <div class="col-md-5">
+                        <div id="sobre-mi-img" class="col-md-4 col-sm-12">
                             <img id="joaquin-img" class="joaquin-img" src="assets/img/jpg/joaquin_cejas.jpg">
                         </div>
-                        <div class="col-md-7 text-acerca-de">
+                        <div class="col-md-8 col-sm-12 text-acerca-de">
                             <p>
-                                Soy desarrollador web y me capacito como Developer Fullstack bajo los lenguajes de HTML, CSS, PHP, JAVA, SQL, Javascript y sus frameworks m&aacute;s conocidos.
-                                Me fascina aprender sobre nuevas tecnolog&iacute;as y poner en pr&aacute;ctica constantemente los conocimientos adquiridos.
+                                Soy un desarrollador de software con experiencia en HTML, CSS, PHP, y Javascript 
+                                (especialmente con NodeJS, ExpressJS, NestJS, VueJS y ReactJS), así como en Golang. 
+                                Tengo un profundo conocimiento tanto de bases de datos relacionales como no relacionales, 
+                                incluyendo SQL, MongoDB y Redis.
                             </p>
                             <p>
-                                Soy muy determinado en la resoluci&oacute;n de problemas y en el cumplimiento de tareas. Siempre busco mejorar para que mis desarrollos sean lo m&aacute;s &oacute;ptimos posible.
-                                Trabajo bien en equipo, soy proactivo, autodid&aacute;cta y tengo amplias capacidades de aprendizaje.
+                                Me apasiona profundizar en las tecnologías que ya conozco y aprender nuevas herramientas y 
+                                lenguajes, ya que considero que esta es una profesión en constante evolución. Me caracteriza 
+                                una gran determinación para resolver problemas y cumplir con las tareas asignadas, 
+                                siempre buscando optimizar mis desarrollos porque siempre hay espacio para mejorar.
+                            </p>
+                            <p>
+                                Además, disfruto trabajando en equipo, soy proactivo y autodidacta, y poseo una gran capacidad 
+                                de aprendizaje continuo. Mi objetivo es contribuir de manera efectiva y eficiente a los proyectos 
+                                en los que participo, siempre buscando la excelencia en cada desarrollo.
                             </p>
                         </div>
                         <div class="w-100 space-sm"></div>
@@ -190,6 +199,7 @@
                             
                         </div>
                     </div>
+                    
                     <div class="w-100 space-lg"></div>
                 </div>
             </div>
@@ -207,7 +217,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                  <p>Estoy en constante capacitaci&oacute;n de nuevos lenguajes y tecnolog&iacute;as. 
+                  <p>Estoy en constante capacitación de nuevos lenguajes y tecnologías. 
                       Por ese motivo sigo desarrollando proyectos personales que me ayudan a afianzar 
                       los conocimientos aprendidos.
                   </p>
@@ -240,12 +250,12 @@
                 <div class="col-md-4">
                     <a class="redes" id="linkedin" href="https://www.linkedin.com/in/joaquin-cejas-2bb847146/" target="_blank"><i class="fa fa-2x fa-linkedin"></i></a>
                     <a class="redes" id="github" href="https://github.com/jcejas" target="_blank">&nbsp;<i class="fa fa-2x fa-github-square"></i></a>
-                    <a class="redes" id="correo" href="mailto:joaquincjs@hotmail.com" target="_blank">&nbsp;<i class="fa fa-2x fa-envelope-square"></i></a>
+                    <a class="redes" id="correo" href="mailto:joaquin.cejas.2020@gmail.com" target="_blank">&nbsp;<i class="fa fa-2x fa-envelope-square"></i></a>
                 </div>
             </div>
             <div class="w-100 space-sm"></div>
         </footer>
         
-        <script type="text/javascript" src="js/script.js?v=0.1"></script>
+        <script type="text/javascript" src="assets/js/script.js?v=0.1"></script>
     </body>
 </html>

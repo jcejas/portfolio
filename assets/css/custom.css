@@ -122,7 +122,7 @@ h2.title{
 }
 
 .redes i:hover{
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 nav a:hover{
@@ -193,5 +193,8 @@ img.proyect{
         max-height: 100%;
         margin-top: auto;
         margin-bottom: auto;
+    }
+    #sobre-mi-img{
+        text-align: center;
     }
 }
